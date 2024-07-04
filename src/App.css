@@ -1,0 +1,84 @@
+body {
+    background-color: #31363F;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.navlink {
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.navlink:hover {
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.headinginthemain {
+    text-align: center;
+    color: white;
+}
+
+.sioutbutton {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 501px;
+    cursor: pointer;
+}
+
+.readdocs {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: olivedrab;
+    border-radius: 100px;
+}
+
+/*docs*/
+
+.docs-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.docs-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.docs-instructions {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.docs-steps {
+    margin-left: 20px;
+}
+
+.docs-step {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
